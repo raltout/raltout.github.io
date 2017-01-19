@@ -1,8 +1,36 @@
 body {
-	background: url("unit_3/images/supporthero.jpg");
+	background: url("../images/supporthero.jpg");
+	background-position: top;
 	background-size: cover;
 }
 h1 {
-	font-size: 52;
+	font-size: 100px;
 	font-weight: 700;
+	font-family: Proxima Nova;
+	text-align: center;
+	color: #FFFFFF;
+}
+#slogan {
+	font-family: Proxima Nova;
+	font-style: italic;
+	font-size: 52px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.content{
+	font-family: Proxima Nova;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	color: #FFFFFF
+}
+
+hr {
+	color: #83BC3C;
+	width: 600px;
 }
