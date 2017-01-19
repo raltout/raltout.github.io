@@ -1,0 +1,8 @@
+body {
+	background: url("unit_3/images/supporthero.jpg");
+	background-size: cover;
+}
+h1 {
+	font-size: 52;
+	font-weight: 700;
+}
