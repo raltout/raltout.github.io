@@ -1,0 +1,57 @@
+body {
+	background: #DEF2F9;
+	background-position: top;
+	background-size: cover;
+}
+#hero {
+	background: url("../images/supporthero.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	margin-top: 0px;
+}
+h1 {
+	font-size: 100px;
+	font-weight: 700;
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	text-align: center;
+	color: #FFFFFF;
+}
+#slogan {
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 52px;
+	color: #1984BC;
+	text-align: center;
+}
+
+.content{
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	text-align: center;
+	line-height: 2em;
+	color: #1984BC;
+}
+
+.lists{
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 2em;
+	color: #1984BC;
+	width: 600px;
+}
+
+a {
+	color: #83BC3C;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+	color: #000000
+}
+
+hr {
+	color: #83BC3C;
+	width: 600px;
+}
