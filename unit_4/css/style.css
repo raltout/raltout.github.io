@@ -5,6 +5,11 @@ body {
 }
 
 /* Index */
+.logo {
+	max-height: 38px;
+	align-self: left;
+}
+
 #herotext {
 	font-size: 100px;
 	font-weight: 700;
