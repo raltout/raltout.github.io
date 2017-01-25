@@ -7,6 +7,7 @@ body {
 /* Index */
 .logo {
 	max-height: 38px;
+	max-width: 120px;
 	align-self: left;
 }
 
