@@ -1,0 +1,128 @@
+body {
+	background: #FFFFFF;
+	background-position: top;
+	background-size: cover;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+background-color: #E8C66A;
+border: 1px black solid;
+padding: 20px;
+}
+
+aside {
+background-color: #FFC675;
+border: 1px black solid;
+padding: 20px;
+}
+
+article {
+background-color: #E89C6C;
+border: 1px black solid;
+padding: 20px;
+}
+
+footer {
+background-color: #FF957E;
+border: 1px black solid;
+padding: 20px;
+}
+
+div / section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+/* Index */
+.logo {
+	max-height: 38px;
+	max-width: 120px;
+	align-self: left;
+}
+
+#herotext {
+	font-size: 100px;
+	font-weight: 700;
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	text-align: center;
+	color: #FFFFFF;
+	background: url("../images/supporthero.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+#slogan {
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 52px;
+	color: #1984BC;
+	text-align: center;
+}
+
+.content{
+	text-align: center;
+	line-height: 2em;
+	color: #1984BC;
+}
+
+.lists{
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 2em;
+	color: #1984BC;
+	max-width: 600px;
+	list-style-type: none;
+}
+
+.subheaders{
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	line-height: 2em;
+	color: #000000;
+	max-width: 600px;
+	text-align: left;
+}
+
+/* Articles */
+.article {
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	color: #000000;
+	max-width: 600px;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+.articletitle{
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	color: #1984BC;
+}
+
+.articleimage{
+	max-width: 600px;
+}
+
+.articlelists{
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 1.5em;
+	max-width: 600px;
+}
+
+a {
+	color: #1984BC;
+	text-decoration: none;
+}
+
+hr {
+	color: #83BC3C;
+	width: 600px;
+}
+
+p{
+	font-family: Proxima Nova; 'Roboto', sans-serif;
+}
