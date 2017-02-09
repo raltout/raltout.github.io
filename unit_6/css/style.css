@@ -5,40 +5,57 @@ body {
 }
 
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
+	background: url("../images/supporthero.jpg");
+	background-size: cover;
 	padding: 20px;
+	margin: 0px;
 }
 
 nav {
-background-color: #E8C66A;
-border: 1px black solid;
-padding: 20px;
-}
-
-aside {
-background-color: #FFC675;
-border: 1px black solid;
-padding: 20px;
+padding: 10px;
 }
 
 article {
-background-color: #E89C6C;
-border: 1px black solid;
-padding: 20px;
+padding: 0px;
+margin: 0px;
 }
 
 footer {
-background-color: #FF957E;
-border: 1px black solid;
 padding: 20px;
 }
 
 div / section {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	padding: 10px;
+	margin: 0px;
+}
+
+#two_column {
 	padding: 20px;
 }
+
+.left {
+	padding: 20px;
+	margin: 0% 0% 0% 2.5%;
+	float: left;
+	width: 40%;
+}
+
+.right {
+	padding: 20px;
+	margin: 0% 2.5% 0% 0%;
+	float: right;
+	width: 40%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 /* Index */
 .logo {
 	max-height: 38px;
@@ -57,7 +74,7 @@ div / section {
 	font-family: Proxima Nova; 'Roboto', sans-serif;
 	font-style: italic;
 	font-size: 52px;
-	color: #1984BC;
+	color: #FFFFFF;
 	text-align: center;
 }
 
@@ -65,6 +82,7 @@ div / section {
 	text-align: center;
 	line-height: 2em;
 	color: #1984BC;
+	margin: 20px 0px 0px 0px;
 }
 
 .lists{
