@@ -15,7 +15,7 @@ body {
 
 #two_column {
 	padding: 0px;
-	width: 50%
+	width: 70%
 }
 
 .left {
@@ -75,6 +75,10 @@ h1 {
 	margin: 1em 0em;
 }
 
+.smallcopy {
+	font-size: .875em;
+}
+
 .ultimate {
 	margin: 3em;
 	width: 70%;
@@ -132,7 +136,7 @@ a {
 	width: 90%;
 }
 	
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
 	html {
 	background: url("../images/splash900.png");
 	background-position: top;
@@ -182,6 +186,7 @@ a {
 
 	h1 {
 		font-size: 1.5em;
+		margin: 1em 0em 1em 0em;
 	}
 
 	#two_column {
