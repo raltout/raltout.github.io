@@ -1,0 +1,219 @@
+html {
+	background: url("../images/splash.png");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body {
+	font-family: 'Proxima Nova', 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	color: #FFFFFF;
+}
+
+
+#two_column {
+	padding: 0px;
+	width: 70%
+}
+
+.left {
+	padding: 1.5em 0em;
+	margin: 0%;
+	float: left;
+	width: 40%;
+
+}
+
+.right {
+	padding: 1.5em;
+	margin: 0%;
+	float: right;
+	width: 40%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.button {
+	text-align: center;
+	font-weight: 600;
+	font-size: .875em;
+	text-transform: uppercase;
+	background: #FFFFFF;
+	color: #000000;
+	display: block;
+	padding: .70em;
+	border-radius: 2em;
+	border: #FFFFFF;
+	border-style: solid;
+	border-width: .15em;
+	max-width: 150px;
+	text-decoration: none;
+}
+
+.button:hover {
+	color: #FFFFFF;
+	background: none;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 600;
+	margin: 2em 0em 1em 0em;
+}
+
+.copy {
+	width: 70%;
+	margin: 1em 0em;
+}
+
+.smallcopy {
+	font-size: .875em;
+}
+
+.ultimate {
+	margin: 3em;
+	width: 70%;
+	margin-right: 45%;
+}
+
+a:hover {
+	color: #ABDAEF;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width: 1196px) {
+	html {
+	background: url("../images/splash1280.png");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+	h1{
+	font-size: 2.5em;
+}
+
+@media only screen and (max-width: 1080px) {
+	html {
+	background: url("../images/splash1024.png");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#two_column {
+	width: 70%
+}
+
+.left {
+	padding: 0.5em 0em;
+	margin: 0%;
+	float: left;
+	width: 40%;
+}
+
+.right {
+	padding: 0.5em;
+	margin: 0%;
+	float: right;
+	width: 40%;
+}
+
+	.copy {
+	width: 90%;
+}
+	
+@media only screen and (max-width: 950px) {
+	html {
+	background: url("../images/splash900.png");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}	
+
+	h1 {
+		font-size: 2em;
+	}
+
+	#two_column {
+	width: 70%
+	}
+
+	.left {
+		padding: 0em 0em 10em 0em;
+		margin: 0%;
+		float: left;
+		width: 45%;
+	}
+
+	.right {
+		padding: 0em 0em 10em 0em;
+		margin: 0%;
+		float: right;
+		width: 45%;
+	}
+
+	.copy {
+		width: 80%;
+	}
+
+	.ultimate {
+		margin: 1em;
+		width: 100%;
+		margin-right: 45%;
+	}
+
+@media only screen and (max-width: 600px) {
+	html {
+	background: url("../images/splash900.png");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}	
+
+	h1 {
+		font-size: 1.5em;
+		margin: 1em 0em 1em 0em;
+	}
+
+	#two_column {
+	width: 95%
+	}
+
+	.left {
+		padding: 0em 0em 10em 0em;
+		margin: 0%;
+		float: left;
+		width: 45%;
+	}
+
+	.right {
+		padding: 0em 0em 10em 0em;
+		margin: 0%;
+		float: right;
+		width: 45%;
+	}
+
+	.copy {
+		width: 95%;
+		margin: 1.5em 0em;
+	}
+
+	.ultimate {
+		margin: .5em;
+		width: 100%;
+		margin-right: 45%;
+	}
